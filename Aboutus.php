@@ -1,25 +1,3 @@
-<?php
-$server="localhost";
-$username="root";
-$password="";
-$database="zalego";
-
-$conn=mysqli_connect($server,$username,$password,$database);
-if(isset ($_POST["submitButton"]))
-{
-    // fetch form data
-    $email = $_POST["email"];
-    // submit form data
-    $insert_data= mysqli_query($conn,"INSERT INTO subscribers(email)VALUES('$email')");
-if($insert_data){
-    echo "Data submitted successfully";
-}
-else{
-    echo "Error occurred";
-}
-}
-?>
-
 
 
 
@@ -95,7 +73,7 @@ else{
                         </div>
                     </div>
                 </form>
-                <!-- <nav class="navbar navbar-expand-lg bg-light fixed-top shadow">
+                <nav class="navbar navbar-expand-lg bg-light fixed-top shadow">
                     <div class="container-fluid">
                         <a href="#" class="navbar-brand">Zalego academy</a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbardisplaynavigations" aria-expanded="false">
@@ -103,13 +81,13 @@ else{
                         </button>
                         <div class="collapse navbar-collapse" id="navbardisplaynavigations">
                             <div class="navbar-nav">
-                            <a href="index.html" class="nav-link active">Home</a>
+                            <a href="index.php" class="nav-link active">Home</a>
                             <a href="#" class="nav-link active">About us</a>
-                            <a href="#" class="nav-link active">Contact us</a>
+                            <a href="enroll.php" class="nav-link active">Register now</a>
                         </div>
                     </div>
                   </div> 
-             </nav> -->
+             </nav>
 
         
 

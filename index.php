@@ -1,28 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -34,7 +9,7 @@
 </head>
 <body>
     <!-- navigation bar -->
-        <nav class="navbar navbar-expand-lg bg-light fixed-top shadow">
+        <!-- <nav class="navbar navbar-expand-lg bg-light fixed-top shadow">
             <div class="container-fluid">
                 <a href="#" class="navbar-brand">Zalego academy</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbardisplaynavigations" aria-expanded="false">
@@ -43,12 +18,12 @@
                 <div class="collapse navbar-collapse" id="navbardisplaynavigations">
                     <div class="navbar-nav">
                     <a href="#" class="nav-link active">Home</a>
-                    <a href="Aboutus.html" class="nav-link active">About us</a>
-                    <a href="#" class="nav-link active">Contact us</a>
+                    <a href="Aboutus.php" class="nav-link active">About us</a>
+                    <a href="enroll.php" class="nav-link active">Register Now</a>
                 </div>
             </div>
           </div> 
-     </nav>
+     </nav> -->
  <!-- end navigation bar -->
     <main class="p-5 mb-4 bg-light">
         <h1 style="padding-top:80px;">Welcome Malik</h1>
@@ -78,7 +53,7 @@
             <div class="row pt-5">
                 <h1>Contact us</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, ex amet sit accusamus corrupti dignissimos magni iste laudantium quae esse perspiciatis tempora totam accusantium impedit omnis illo consequuntur? Tempora, animi. Non quod aspernatur, qui cumque quo officiis error dolore sit reprehenderit</p>
-                <form>
+                <form action="enroll.php" method="POST">
                  <div class="row">
                 <div class="mb-3 col-lg-6">
                     <label for="firstName" class="form-label">First Name</label>
@@ -106,7 +81,7 @@
                        </div>
                     </div>
                     <br>
-                    <button type="submit" name="submitButton" class="btn btn-primary">Send a Message</button>
+                    <button type="submit" class="btn btn-primary">Send a Message</button>
             </form>
         </div>
             
@@ -129,3 +104,27 @@
             <script src="bootstrap-5.2.0-beta1-dist/bootstrap-5.2.0-beta1-dist/js/bootstrap.min.js"></script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

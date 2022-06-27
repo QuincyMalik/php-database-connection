@@ -1,2 +1,14 @@
-
-
+.main{
+    margin-top: 50px;
+    background-color:gainsboro;
+} 
+.navbar{
+    padding: 0
+}
+.row{
+    padding-bottom: 50px;
+}
+.container3{
+    text-align:"center";
+    padding-top: 10px;
+}
