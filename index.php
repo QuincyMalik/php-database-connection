@@ -9,7 +9,7 @@
 </head>
 <body>
     <!-- navigation bar -->
-        <!-- <nav class="navbar navbar-expand-lg bg-light fixed-top shadow">
+        <nav class="navbar navbar-expand-lg bg-light fixed-top shadow">
             <div class="container-fluid">
                 <a href="#" class="navbar-brand">Zalego academy</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbardisplaynavigations" aria-expanded="false">
@@ -23,7 +23,7 @@
                 </div>
             </div>
           </div> 
-     </nav> -->
+     </nav> -
  <!-- end navigation bar -->
     <main class="p-5 mb-4 bg-light">
         <h1 style="padding-top:80px;">Welcome Malik</h1>

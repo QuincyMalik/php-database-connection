@@ -69,31 +69,17 @@ else
     <link rel="stlesheet" href="style.css">
 </head>
 <body>
-        <!-- <nav class="navbar navbar-expand-lg bg-light fixed-top shadow">
-            <div class="container-fluid">
-                <a href="#" class="navbar-brand">Zalego academy</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbardisplaynavigations" aria-expanded="false">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbardisplaynavigations">
-                    <div class="navbar-nav">
-                        <a href="index.php" class="nav-link active">Home</a>
-                        <a href="Aboutus.php" class="nav-link active">About us</a>
-                        <a href="#" class="btn btn-primary active">Register Now</a>
-                 </div>
-            </div>
-          </div> 
-     </nav> -->
+    <?php include("navbar.php")?>   
 
      <main class="text-center p-5 mb-4 bg-light">
         <h1>JULY SOFTWARE ENGINEERING BOOTCAMP</h1>
         <ul style="list-style-type:none ;">
-            <li>
-                    <span><i class="fa fa-calendar"></i> <span>
+            <li style="padding-right: 600px">
+                    <span><i class="fa fa-calendar fa-2x"></i> <span>
                     <span>20th July 2022</span>
             </li>
-            <li>
-                    <span><i class="fa fa-map-marker"></i> <span>
+            <li style="padding-right: 600px">
+                    <span><i class="fa fa-map-marker fa-2x"></i> <span>
                     <span>Zalego Academy<br>Devan Plaza</span>
                     </li>
         </ul>
@@ -105,7 +91,7 @@ else
     </div>
     <div class="sign-up-card">
         <h3 class="text-center p-5">Sign Up Today</h3>
-        <form action="enroll.php" method="POST" class="container">
+    <form action="enroll.php" method="POST" class="container">
             
             <div class="row">
                 <div class="col-lg-6">
@@ -123,15 +109,15 @@ else
           <div class="row">
             <div class="col-lg-6">
                 <label for="E-mail" class="form-label"><b>Email address:</b></label>
-                <input type="email" name="email"class="form-control"  placeholder="Enter your email">
+                <input type="email" name="email" class="form-control"  placeholder="Enter your email">
             </div>
             
                 <div class="col-lg-6">
                     <label for="gender" class="form-label"><b>What is your gender</b></label>
                     <select class="form-select" name="Gender"  aria-label="Default select example">
                         <option selected>--select your gender--</option>
-                        <option value="1">Male</option>
-                        <option value="2">Female</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
                     </select>
                 </div>
                 <p class="mt-5">in order to complete your registration to the bootcamp you are required to select one course you will be <br> undertaking.Please NOTE that this will be your learning track during thr 2-weeks immersion
@@ -146,9 +132,10 @@ else
                         <option value="Game development">Game development</option>
                         <option value="Graphic design">Graphic design</option>
                         <option value="Cyber security">Cyber security</option>
-                    </select>
-                </div>
-        </form>
+                
+                </select>
+            </div>
+     </form>
          <p>You agree by prviding your information you understand all our data privacy and protection policy <br> outlined in our Terms & conditions and the Privacy Policy statements</p>
          <div class="form check mb-5 mt-5">
             <input class="form-check-label" type="checkbox" value="" id="flexCheckDefault">
@@ -164,8 +151,8 @@ else
             <div class="col-lg-12 mb-3" style="text-align: center;">
                 <p style="color:gray">Subscribe to get information,latest news about<br>Zalego Academy</p>
             </div>
-            <div class="col-lg-12" style="text-align: center; margin-bottom: 3px;">
-                            <input type="email" placeholder="Enter e-mail address">
+            <div class="col-lg-6" style="text-align: center; margin-bottom: 3px;">
+                            <input type="email" id="email" class="form-control" placeholder="Enter e-mail address">
                             <button class="btn btn-primary">Subscribe</button>
              </div>
             <hr>
